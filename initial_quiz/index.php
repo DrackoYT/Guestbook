@@ -27,6 +27,9 @@ global $pdo;
 
             <label for="message_text" >Write your message</label>
             <textarea name="message_text" id="message_text" cols="30" rows="10"></textarea>
+            <div>
+                <p id="character_count">0/200</p>
+            </div>
 
             <button name="submit_button" value="send" class="gb_submit_button" type="submit">Submit message</button>
         </form>
@@ -42,7 +45,6 @@ global $pdo;
     $messages = $sql_array->fetchAll(PDO::FETCH_ASSOC);
 
     foreach ($messages as $message) {?>
-
 
             <div class="show_content-form">
                 <div class="content-form_titles">
