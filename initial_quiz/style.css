@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.gb_title_section{
+    text-align: center;
+}
+
+.gb_title{
+    font-size: 2.3rem;
+    cursor: default;
+}
+
+.gb_form_section{
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+
+    background-color: #ecddce;
+    border-radius: 1rem;
+}
+
+label{
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+input{
+    width: 30%;
+    height: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    font-size: 1.1rem;
+
+    background-color: beige;
+
+    border: transparent;
+    border-radius: 1rem;
+}
+
+textarea{
+    width: 75%;
+    height: 7rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+
+    background-color: beige;
+
+    border: transparent;
+    border-radius: 1rem;
+
+    resize: none;
+}
+
+.gb_submit_button{
+    display: block;
+    margin: auto;
+
+    margin-top: 1rem;
+    padding: 0.5rem;
+
+    border: transparent;
+    border-radius: 0.4rem;
+    background-color: antiquewhite;
+
+}
+
+.gb_submit_button:hover{
+    background-color: #e7d4c3;
+    cursor: pointer;
+}
+
+.show_send-form{
+    max-width: 75%;
+    margin: auto;
+    padding-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.show_content-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .content-form_titles{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+
+    }
+
+    .content_form{
+        margin: 0;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+
+        p {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
+        }
+    }
+
+    padding: 1rem;
+    border-radius: 0.8rem;
+
+    background-color: #ec9c50;
+}
+
